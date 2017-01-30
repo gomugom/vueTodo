@@ -1,4 +1,4 @@
-# test
+# todoApp with vue.js
 
 > A Vue.js project
 
@@ -6,7 +6,19 @@
 
 ``` bash
 # install dependencies
-npm install
+npm i
+
+# create db
+npm i deployd
+dpd create db
+dpd db/app.dpd -d
+
+(need to set deployd collection
+  - todos :
+    - id
+    - text(string, required)
+    - done(boolean)
+)
 
 # serve with hot reload at localhost:8080
 npm run dev
